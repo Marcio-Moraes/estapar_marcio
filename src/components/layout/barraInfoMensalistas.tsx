@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { BotaoActivate } from "./botaoActivate";
+import { data } from "@/data";
 
 export const BarraInfoMensalistas = () => {
     const [searchTerm, setSearchTerm] = useState(true);
@@ -12,7 +13,7 @@ export const BarraInfoMensalistas = () => {
         Mensalistas Digital
       </div>
       <div className="text-gray-600 w-full text-center">
-        25 registros
+        {data.mensalistas.length} registros
       </div>
       <div className="w-full flex justify-end">
         <input 
