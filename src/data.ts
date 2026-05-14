@@ -5,11 +5,12 @@ export const data = {
             nome: "ACYR DE ANDRADE (GMC PARK)",
             endereco: "RUA JOAQUIM FLORIANO, 620",
             cidadeUf: "SÃO PAULO/SP",
-            regional: "SP 1",
+            regional: "SP 1",            
             acoes: {
                 link: "/garagens/000610",
                 urlCurta: "estapar.app/g000610"
-            }
+            },
+            ativo: true
         },
         {
             codigo: "000615",
@@ -20,7 +21,8 @@ export const data = {
             acoes: {
                 link: "/garagens/000615",
                 urlCurta: "estapar.app/g000615"
-            }
+            },
+            ativo: true
         },
         {
             codigo: "000620",
@@ -31,7 +33,8 @@ export const data = {
             acoes: {
                 link: "/garagens/000620",
                 urlCurta: "estapar.app/g000620"
-            }
+            },
+            ativo: true
         },
         {
             codigo: "000625",
@@ -42,7 +45,8 @@ export const data = {
             acoes: {
                 link: "/garagens/000625",
                 urlCurta: "estapar.app/g000625"
-            }
+            },
+            ativo: true
         },
         {
             codigo: "000630",
@@ -53,7 +57,8 @@ export const data = {
             acoes: {
                 link: "/garagens/000630",
                 urlCurta: "estapar.app/g000630"
-            }
+            },
+            ativo: true
         },
         {
             codigo: "000635",
@@ -64,7 +69,8 @@ export const data = {
             acoes: {
                 link: "/garagens/000635",
                 urlCurta: "estapar.app/g000635"
-            }
+            },
+            ativo: true
         },
         {
             codigo: "000640",
@@ -75,7 +81,8 @@ export const data = {
             acoes: {
                 link: "/garagens/000640",
                 urlCurta: "estapar.app/g000640"
-            }
+            },
+            ativo: true
         },
         {
             codigo: "000645",
@@ -86,7 +93,8 @@ export const data = {
             acoes: {
                 link: "/garagens/000645",
                 urlCurta: "estapar.app/g000645"
-            }
+            },
+            ativo: true
         }
     ]
 
