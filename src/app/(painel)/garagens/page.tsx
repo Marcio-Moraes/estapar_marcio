@@ -25,7 +25,7 @@ export default function Garagens() {
           <div className="hidden md:block flex-1 font-semibold">Endereço</div>
           <div className="hidden md:block flex-1 font-semibold">Cidade/UF</div>
           <div className="hidden md:block flex-1 font-semibold">Regional</div>
-          <div className="font-semibold text-right">Ações</div>
+          <div className="font-semibold text-right w-[50px]">Ações</div>
         </div>
         {data.mensalistas.map((mensalista) => (
           <LinhaEstacionamentos 
