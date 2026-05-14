@@ -25,7 +25,7 @@ export default async function GaragemDetail({ params }: { params: { name: string
   const mensalista = await data.mensalistas.find(m => m.codigo === name);
   
   
-  // If no mensalista found, show a not found message
+  // caso a url não seja encontrada
   if (!mensalista) {
     return (
       <div className="bg-white h-screen w-screen p-8">
