@@ -7,7 +7,7 @@ import { LuBuilding2, LuCar } from "react-icons/lu";
 
 export const Sidebar = () => {
   return (
-    <div className="w-64 min-h-full w-full md:w-64 bg-[#F9FAFB] py-4 border-r border-gray-200 hidden md:block">
+    <div className="w-64 min-h-full w-full md:w-64 bg-[#F9FAFB] py-4 border-r border-gray-200 hidden lg:block">
       <div className="flex items-center justify-center border-b border-gray-200" >
         <Link href="/">
           <Image src={logo} loading="lazy" alt="Logo" width={150} height={80} className="mx-auto object-contain mt-2 mb-6" />
