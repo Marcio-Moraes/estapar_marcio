@@ -69,7 +69,7 @@ export default async function GaragemDetail({ params }: { params: { name: string
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row p-2 md:p-4 gap-4 md:gap-6 mt-2 md:mt-4">
+      <div className="flex flex-col lg:flex-row p-2 md:p-4 gap-4 md:gap-6 mt-2 md:mt-4">
         <ItemDescricaoDetalhes title="Total de Vagas" value={35} />
         <ItemDescricaoDetalhes title="Ocupadas" value={0}  iconColor="text-orange-400"/>
         <ItemDescricaoDetalhes title="Disponíveis" value={35} iconColor="text-green-500" />
@@ -79,8 +79,8 @@ export default async function GaragemDetail({ params }: { params: { name: string
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row">
-        <div className="w-full max-w-xs">
+      <div className="flex flex-col lg:flex-row">
+        <div className="w-[250px]">
           <ul>
             <li className="flex items-center gap-2 w-full h-14 cursor-pointer bg-gray-100 hover:bg-white border border-gray-100 px-6">
               <LuCircleDollarSign />
