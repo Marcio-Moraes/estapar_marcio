@@ -55,7 +55,7 @@ A arquitetura segue o padrão atual do ecossistema **React + Next.js App Router*
 
 ```bash
 # Clone o repositório (se ainda não tiver)
-git clone <url-do-repositorio>
+git clone https://github.com/marciomoraesm/estapar_marcio.git
 cd estapar_marcio
 
 # Instale as dependências
